@@ -1,5 +1,5 @@
 # SMART
-[[arXiv]()] [[Huggingface](https://huggingface.co/collections/HanSolo9682/smart)]
+[[arXiv](https://arxiv.org/abs/2605.24938)] [[Huggingface](https://huggingface.co/collections/HanSolo9682/smart)]
 
 This is the official repository for the paper Your Embedding Model is SMARTer Than You Think. We open source the code used to train our LamRA-Ret variants, our Qwen3-VL-Embedding adapters, and for evaluating baselines and our newly trained models.
 
@@ -58,7 +58,14 @@ This repository current supports the evaluation of the following baseline embedd
 ## Citation
 If you find SMART helpful, we would appreciate it if you can cite us through the following:
 ```bibtex
-@misc{zhang2026smart,
-    ...
+@article{zhang2026smart,
+  author        = {Zhang, Jianrui and Lee, Hyun Jung and Ganguly, Sukanta and Kam, Tae-Eui and Kim, Donghyun and Lee, Yong Jae},
+  title         = {SMART: Inference-Only Multi-Vector Retrieval Enhancement for Single-Vector Retrievers}, 
+  journal       = {arXiv preprint arXiv:2605.24938},
+  year          = {2026},
+  eprint        = {2605.24938},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2605.24938}
 }
 ```
